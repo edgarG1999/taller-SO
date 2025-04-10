@@ -2,8 +2,8 @@
 
 # Configuración
 FECHA=$(date +%Y-%m-%d)
-ORIGEN="/home/edgar/Documentos/script"
-DESTINO="/home/edgar/Escritorio/backups"
+ORIGEN="/home/edgar/Escritorio/taller SO/ejercicio_1/script"
+DESTINO="/home/edgar/Escritorio/taller SO/ejercicio_1/backups"
 LOGFILE="/home/edgar/Escritorio/backups/backup.log"
 
 # Crear directorio de backups si no existe
