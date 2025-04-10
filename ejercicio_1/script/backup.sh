@@ -4,7 +4,7 @@
 ORIGEN="/home/edgar/Escritorio/taller_SO/ejercicio_1/script"
 DESTINO="/home/edgar/Escritorio/taller_SO/ejercicio_1/backups"
 NOMBRE_BACKUP="respaldo_$(date +%Y-%m-%d).tar.gz"
-REPO_DIR="/home/edgar/Escritorio/taller SO"
+REPO_DIR="/home/edgar/Escritorio/taller_SO"
 
 echo "Iniciando proceso de respaldo y versionado..."
 
