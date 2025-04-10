@@ -4,21 +4,26 @@
 FECHA=$(date +%Y-%m-%d)
 ORIGEN="/home/edgar/Escritorio/taller SO/ejercicio_1/script"
 DESTINO="/home/edgar/Escritorio/taller SO/ejercicio_1/backups"
-LOGFILE="/home/edgar/Escritorio/backups/backup.log"
+REPO_DIR="/home/edgar/Escritorio/taller SO"
+NOMBRE_BACKUP="respaldo_$(date +%Y-%m-%d).tar.gz"
 
-# Crear directorio de backups si no existe
+# 1. Crear backup local
 mkdir -p "$DESTINO"
+tar -czf "$DESTINO/$NOMBRE_BACKUP" "$ORIGEN"
 
-# Crear backup comprimido
-echo "[$(date +%Y-%m-%d%H:%M:%S)] Iniciando backup..." >> "$LOGFILE"
-tar -czf "$DESTINO/backup_$FECHA.tar.gz" "$ORIGEN" 2>> "$LOGFILE"
-
-# Verificar éxito
-if [ $? -eq 0 ]; then
-    echo "[$(date +%Y-%m-%d%H:%M:%S)] Backup completado: $DESTINO/backup_$FECHA.tar.gz" >> "$LOGFILE"
-else
-    echo "[$(date +%Y-%m-%d%H:%M:%S)] Error al crear backup!" >> "$LOGFILE"
+# 2. Verificar si el backup se creó
+if [ ! -f "$DESTINO/$NOMBRE_BACKUP" ]; then
+    echo "Error: No se pudo crear el backup!"
+    exit 1
 fi
 
-# Eliminar backups antiguos (más de 7 días)
-find "$DESTINO" -name "backup_*.tar.gz" -mtime +7 -delete 2>> "$LOGFILE"
+# 3. Copiar backup al repositorio Git
+cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/"
+
+# 4. Subir a GitHub
+cd "$REPO_DIR"
+git add "$NOMBRE_BACKUP"
+git commit -m "Backup automático $(date +%Y-%m-%d)"
+git push origin main
+
+echo "Backup y push a GitHub completados!"
