@@ -1,29 +1,28 @@
-#!/bin/bash
+##!/bin/bash
 
 # Configuración
-FECHA=$(date +%Y-%m-%d)
 ORIGEN="/home/edgar/Escritorio/taller SO/ejercicio_1/script"
 DESTINO="/home/edgar/Escritorio/taller SO/ejercicio_1/backups"
-REPO_DIR="/home/edgar/Escritorio/taller SO"
 NOMBRE_BACKUP="respaldo_$(date +%Y-%m-%d).tar.gz"
+REPO_DIR="/home/edgar/Escritorio/taller SO"
 
-# 1. Crear backup local
+echo "Iniciando proceso de respaldo y versionado..."
+
+# 1. Crear respaldo
 mkdir -p "$DESTINO"
 tar -czf "$DESTINO/$NOMBRE_BACKUP" "$ORIGEN"
 
-# 2. Verificar si el backup se creó
+# 2. Verificar respaldo
 if [ ! -f "$DESTINO/$NOMBRE_BACKUP" ]; then
-    echo "Error: No se pudo crear el backup!"
-    exit 1
+echo "Error al crear el respaldo!"
+exit 1
 fi
+# 3. Copiar respaldo al repositorio
+cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/backups/"
 
-# 3. Copiar backup al repositorio Git
-cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/"
-
-# 4. Subir a GitHub
+# 4. Actualizar repositorio Git
 cd "$REPO_DIR"
-git add "$NOMBRE_BACKUP"
-git commit -m "Backup automático $(date +%Y-%m-%d)"
+git add backups/"$NOMBRE_BACKUP"
+git commit -m "Respaldo automático: $(date +%Y-%m-%d)"
 git push origin main
-
-echo "Backup y push a GitHub completados!"
+echo "Proceso completado con éxito!"
