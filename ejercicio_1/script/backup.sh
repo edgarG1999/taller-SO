@@ -40,8 +40,8 @@ cd "$REPO_DIR" || exit 1
 echo "Actualizando repositorio Git..."
 
 # Configurar Git (solo necesario la primera vez)
-git config --global user.email "tu-email@example.com"
-git config --global user.name "Tu Nombre"
+git config --global user.email "ef.edgar1999@gmail.com"
+git config --global user.name "edgarG1999"
 
 # Añadir archivos
 git add -f "$NOMBRE_BACKUP"
