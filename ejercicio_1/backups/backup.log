@@ -102,3 +102,63 @@ tar: Eliminando la `/' inicial de los nombres
 [2025-04-1014:34:01] Iniciando backup...
 tar: Eliminando la `/' inicial de los nombres
 [2025-04-1014:34:01] Backup completado: /home/edgar/Escritorio/backups/backup_2025-04-10.tar.gz
+==========================================
+[2025-04-10 19:52:02] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+[master c0d6ae5] Respaldo automático: 2025-04-10
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+fatal: could not read Username for 'https://github.com': No existe el dispositivo o la dirección
+ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 19:53:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+fatal: could not read Username for 'https://github.com': No existe el dispositivo o la dirección
+ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 19:54:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+fatal: could not read Username for 'https://github.com': No existe el dispositivo o la dirección
+ERROR: Fallo al hacer push
