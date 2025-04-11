@@ -28,7 +28,7 @@ fi
 
 # 2. Copiar a repositorio
 echo "Copiando respaldo a $REPO_DIR..."
-if cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/"; then
+if cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/ejercicio_1/backups/"; then
     echo "Copia exitosa"
 else
     echo "ERROR: Fallo al copiar el respaldo"
@@ -43,8 +43,8 @@ echo "Actualizando repositorio Git..."
 git config --global user.email "ef.edgar1999@gmail.com"
 git config --global user.name "edgarG1999"
 
-# Añadir archivos
-git add -f "$NOMBRE_BACKUP"
+# Añadir TODOS los archivos modificados (incluyendo el log y backups)
+git add -A
 
 # Commit
 git commit -m "Respaldo automático: $(date +%Y-%m-%d)" || echo "No hay cambios nuevos"
