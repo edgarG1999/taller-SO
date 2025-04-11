@@ -26,16 +26,9 @@ else
     exit 1
 fi
 
-# 2. Copiar a repositorio
-echo "Copiando respaldo a $REPO_DIR..."
-if cp "$DESTINO/$NOMBRE_BACKUP" "$REPO_DIR/ejercicio_1/backups/"; then
-    echo "Copia exitosa"
-else
-    echo "ERROR: Fallo al copiar el respaldo"
-    exit 1
-fi
+# [ELIMINADO EL PASO DE COPIA INNECESARIO]
 
-# 3. Versionado en Git
+# 2. Versionado en Git
 cd "$REPO_DIR" || exit 1
 echo "Actualizando repositorio Git..."
 
