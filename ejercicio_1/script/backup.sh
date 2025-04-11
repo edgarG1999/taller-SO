@@ -39,9 +39,18 @@ fi
 cd "$REPO_DIR" || exit 1
 echo "Actualizando repositorio Git..."
 
-git add "$NOMBRE_BACKUP"
-git commit -m "Respaldo automático: $(date +%Y-%m-%d)"
-if git push origin master; then
+# Configurar Git (solo necesario la primera vez)
+git config --global user.email "tu-email@example.com"
+git config --global user.name "Tu Nombre"
+
+# Añadir archivos
+git add -f "$NOMBRE_BACKUP"
+
+# Commit
+git commit -m "Respaldo automático: $(date +%Y-%m-%d)" || echo "No hay cambios nuevos"
+
+# Push con SSH
+if GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no" git push origin master; then
     echo "Push a GitHub exitoso"
 else
     echo "ERROR: Fallo al hacer push"
