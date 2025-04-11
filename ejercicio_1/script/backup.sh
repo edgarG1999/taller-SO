@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Configuración
-ORIGEN="/home/edgar/Escritorio/taller_SO/ejercicio_1/script"
-DESTINO="/home/edgar/Escritorio/taller_SO/ejercicio_1/backups"
+ORIGEN="/home/edgar/Escritorio/taller_SO_practica/ejercicio_1/script"
+DESTINO="/home/edgar/Escritorio/taller_SO_practica/ejercicio_1/backups"
 NOMBRE_BACKUP="respaldo_$(date +%Y-%m-%d).tar.gz"
-REPO_DIR="/home/edgar/Escritorio/taller_SO"
-LOG_FILE="/home/edgar/Escritorio/taller_SO/ejercicio_1/backups/backup.log"
+REPO_DIR="/home/edgar/Escritorio/taller_SO_practica"
+LOG_FILE="/home/edgar/Escritorio/taller_SO_practica/ejercicio_1/backups/backup.log"
 
 # Crear directorio de backups y archivo log (si no existen)
 mkdir -p "$DESTINO"
