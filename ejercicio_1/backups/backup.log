@@ -376,3 +376,16 @@ Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
 /bin/tar: Eliminando la `/' inicial de los nombres
 Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
 Actualizando repositorio Git...
+[master ed7da88] Respaldo automático: 2025-04-10
+ 1 file changed, 13 insertions(+)
+To github.com:edgarG1999/taller-SO.git
+   ea7e04e..ed7da88  master -> master
+Push a GitHub exitoso
+[2025-04-10 21:17:02] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 21:18:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Actualizando repositorio Git...
