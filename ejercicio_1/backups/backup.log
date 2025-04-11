@@ -162,3 +162,204 @@ Archivos sin seguimiento:
 sin cambios agregados al commit (usa "git add" y/o "git commit -a")
 fatal: could not read Username for 'https://github.com': No existe el dispositivo o la dirección
 ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 20:45:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+[master fab4273] Respaldo automático: 2025-04-10
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 respaldo_2025-04-10.tar.gz
+fatal: protocolo 'git@github.com:edgarG1999/https' no es soportado
+ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 20:46:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+fatal: protocolo 'git@github.com:edgarG1999/https' no es soportado
+ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 20:47:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está adelantada a 'origin/master' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+fatal: protocolo 'git@github.com:edgarG1999/https' no es soportado
+ERROR: Fallo al hacer push
+==========================================
+[2025-04-10 20:58:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+Everything up-to-date
+Push a GitHub exitoso
+[2025-04-10 20:58:02] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 20:59:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+Everything up-to-date
+Push a GitHub exitoso
+[2025-04-10 20:59:02] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 21:00:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+Everything up-to-date
+Push a GitHub exitoso
+[2025-04-10 21:00:03] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 21:01:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+Everything up-to-date
+Push a GitHub exitoso
+[2025-04-10 21:01:02] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 21:02:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+Copia exitosa
+Actualizando repositorio Git...
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     ejercicio_1/backups/backup.log
+	modificados:     ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+	borrados:        ejercicio_1/script/taller-SO
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+No hay cambios nuevos
+Everything up-to-date
+Push a GitHub exitoso
+[2025-04-10 21:02:02] Proceso completado con éxito
+==========================================
+==========================================
+[2025-04-10 21:10:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+cp: '/home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz' y '/home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz' son el mismo fichero
+ERROR: Fallo al copiar el respaldo
+==========================================
+[2025-04-10 21:11:01] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Copiando respaldo a /home/edgar/Escritorio/taller_SO...
+cp: '/home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz' y '/home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz' son el mismo fichero
+ERROR: Fallo al copiar el respaldo
+==========================================
+[2025-04-10 21:16:02] Iniciando proceso de respaldo...
+Comprimiendo /home/edgar/Escritorio/taller_SO/ejercicio_1/script...
+/bin/tar: Eliminando la `/' inicial de los nombres
+Respaldo creado: /home/edgar/Escritorio/taller_SO/ejercicio_1/backups/respaldo_2025-04-10.tar.gz
+Actualizando repositorio Git...
